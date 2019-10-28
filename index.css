@@ -1,0 +1,12 @@
+.latest-articles-box > ul > li > a::before {
+    content: "· ";
+}
+
+.latest-articles-box > ul > li > a {
+    display: block;
+}
+
+.latest-articles-box > ul > li:hover > a {
+    background-color:#afafaf;
+    color:red;
+}
